@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    display:inline-block;
+}
+
+/*Navigation Styles*/
+
+.main-header, .switches{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+}
+
+.main-header{
+    justify-content: space-between;
+}
+
+
+.logo{
+    object-fit: contain;
+    margin: 10px;
+}
+
+.switches, li {
+    align-self: center;
+}
+
+/*Main Body Style*/
+
+h1 {
+    text-align: center;
+}
+
