@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 ul{
@@ -12,30 +13,42 @@ li {
 }
 
 /*Navigation Styles*/
-
+.main-header{
+    width: 100%;
+    background: linear-gradient(.75turn, #F27A5E, #F2B872);
+}
 .main-header, .switches{
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid blue;
 }
 
 .main-header{
     justify-content: space-between;
 }
 
+.switches {
+    color: white;
+    font-size: 1.75rem;
+}
 
 .logo{
     object-fit: contain;
     margin: 10px;
 }
 
-.switches, li {
+.switches  li {
     align-self: center;
+    border: 2px #0E3659 solid;
+    margin: 9px;
+    border-radius: 3rem;
+    background: #0E3659;
+    font-family: 'RocknRoll One', sans-serif;
 }
 
 /*Main Body Style*/
 
 h1 {
     text-align: center;
+    font-family: 'RocknRoll One', sans-serif;
 }
 
