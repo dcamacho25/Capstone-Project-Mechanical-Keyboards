@@ -81,7 +81,7 @@ article:nth-of-type(2n+1) {
 
 /* Media query section below */
 
-@media  (min-width: 679px) {
+@media  (min-device-width: 679px) and (max-device-width: 978px) {
 
     h2 {
         font-family: sans-serif;
@@ -89,19 +89,24 @@ article:nth-of-type(2n+1) {
     }
     .flex-container {
         display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-between
+        flex-wrap: wrap;  
     }
-.switch-info{
-        height: auto;
-        margin: auto 1rem;
+
+    .switch-info {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: auto 0.2rem;
+    max-width: 300px;
     }
 }
 
-@media (min-width: 979px) {
+@media (min-device-width: 979px) {
     .flex-container {
         display: flex;
         flex-direction: column;
     }
-    .switch-info: 
+    .switch-info{
+        margin:0.5rem;
+    }
 }
