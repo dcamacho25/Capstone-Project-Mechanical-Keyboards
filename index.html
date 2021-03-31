@@ -59,17 +59,20 @@
                                 cumque, magnam laboriosam qui reiciendis id obcaecati 
                                 doloremque consequuntur odit! Magnam inventore ullam officia.</p>
                     </article>
-
             </section>
+            <form id="form" onsubmit="submitForm(event)">
+                <label for="favswitch">Which is your favorite switch?</label>
+                <input type="text" id="favswitch" name="user_favswitch" placeholder="Cherry,NovelKey,Gateron,etc...">
+                <button type="submit">Submit</button>
 
+            </form>
+            <div id="answer"></div>
         </main>
-
-
-
 
         <footer>
 
 
         </footer>
-
     </body>
+    <script src="script.js"></script>
+</html>

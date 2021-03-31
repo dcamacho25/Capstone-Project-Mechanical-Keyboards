@@ -69,6 +69,16 @@ p {
     border-bottom: 0.95rem solid #0E3659;
     border-right: 0.95rem solid #031059;
 }
+form{
+    margin: auto;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    background: linear-gradient(.75turn, #F27A5E, #F2B872);
+    padding: 1.rem;
+}
+input[type="text"]{
+    height: 2rem;
+}
 
 /* Style for background in articles */
 
