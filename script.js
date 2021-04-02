@@ -20,3 +20,4 @@ function submitForm(event) {
         document.getElementById("answer").innerHTML = "Thanks for using my site I'm glad  " +userInput+ " is your favorite.";
     }
 }
+
