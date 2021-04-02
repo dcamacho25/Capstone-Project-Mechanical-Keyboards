@@ -17,9 +17,14 @@
         color: white;
         font-size: 0.9rem;
     }
-    a:hover {
+    a:hover,
+    .expand:hover {
         color: #F2B872;
     }   
+    a:active,
+    .expand:active{
+        color: black;
+    }
     .main-header{
         position: sticky;
         top: 0;
@@ -30,9 +35,8 @@
         display: flex;
         flex-wrap: wrap;
     }
-    
-    .main-header{
-        justify-content: space-around;
+    .expand {
+        color: white;
     }
     
     .switches {
@@ -102,6 +106,17 @@
     }
     
     /* Media query section below */
+    @media (max-width: 450px) {
+        .main-header{
+            justify-content: space-around;
+        }
+    }
+
+    @media (min-width: 450px) {
+        .main-header{
+            justify-content: space-between;
+        }
+    }
     
     @media (min-width: 679px){
     
@@ -135,6 +150,6 @@
         }
         .switch-info {
             margin: 2%;
+            height: 30em;
         }
     }
-    

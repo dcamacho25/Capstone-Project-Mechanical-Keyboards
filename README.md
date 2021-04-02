@@ -8,5 +8,9 @@ Below you will find the CSS and Javscript features I have used so far.
 - nth-of-type is implemented to change the color of every other <article> tag
 
 ##Javascript
-The "More" button on the main header is used to expand the list in the header. 
-The form at the bottom of my page will validate if text has been input and report back with an error message in case nothing has been typed before submitting. I also used to regex to check if integers were used in the form along with a string.
+-The "More" button on the main header is used to expand the list in the header. 
+-The form at the bottom of my page will validate if text has been input and report back with an error message in case nothing has been typed before submitting. I also used to regex to check if integers were used in the form along with a string.
+
+##Media Query
+-Three media query breakpoints are set at 450px, 679px and 979px. 450px breakpoint adjusts spacing on nav menu
+679px breakpoint creates 2 columns and 979px breakpoint expands the height of the column
