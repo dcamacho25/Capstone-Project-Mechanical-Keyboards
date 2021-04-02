@@ -1,6 +1,6 @@
 *{
-    /*     box-sizing: border-box; */
-        margin: 0;
+    /* box-sizing: border-box; */
+    margin: 0;
     }
     
     ul{
@@ -8,13 +8,14 @@
         padding: 0;
     }
     li {
-        padding: 10px;
+        padding: 0.25em;
         display:inline-block;
     }
     
     /*Navigation Styles*/
     a {
         color: white;
+        font-size: 0.9rem;
     }
     a:hover {
         color: #F2B872;
@@ -31,11 +32,11 @@
     }
     
     .main-header{
-        justify-content: space-between;
+        justify-content: space-around;
     }
     
     .switches {
-        font-size: 1.2rem;
+        justify-content: center;
     }
     
     .logo{
@@ -46,15 +47,16 @@
     .switches  li {
         align-self: center;
         border: 2px #0E3659 solid;
-        margin: 9px;
-        border-radius: 3rem;
+        margin: 0.1em;
+        border-radius: 3em;
         background: #0E3659;
         font-family: 'RocknRoll One', sans-serif;
-        min-width: 6rem;
+        min-width: 3em;
         text-align: center;
     }
     #more-info {
         display:none;
+        align-self: center;
     }
     
     /*Main Body Style*/
